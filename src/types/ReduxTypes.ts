@@ -1,16 +1,16 @@
 export interface ResponseInterface {
-	status: number,
-	data: DataResponseType,
+  status: number,
+  data: DataResponseType,
 };
 
 type DataResponseType = {
-	text: string,
+  text: string,
 };
 
 
 export interface FormPageInterface {
-	sendForm: {
-		initilizedSendForm: boolean,
-		responseText: string,
-	},
+  sendForm: {
+    initilizedSendForm: boolean,
+    responseText: string,
+  },
 };

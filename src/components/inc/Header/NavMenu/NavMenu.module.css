@@ -1,0 +1,4 @@
+.navMenu {
+    @apply relative lg:h-24 w-fit bg-sky-950 lg:rounded-bl-large ml-auto pl-3 lg:pl-20 pt-3 font-bold;
+}
+

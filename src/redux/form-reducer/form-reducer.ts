@@ -8,13 +8,13 @@ const initialState = {
     initilizedSendForm: true,
     responseText: '',
   },
-} as FormPageInterface
+} as FormPageInterface;
 
 
-export type InitialStateType = typeof initialState
-type ActionsTypes = InferActionsTypes<typeof actions>
+export type InitialStateType = typeof initialState;
+type ActionsTypes = InferActionsTypes<typeof actions>;
 
-type ThunkType = BaseThunkType<ActionsTypes>
+type ThunkType = BaseThunkType<ActionsTypes>;
 
 
 const formReducer = (state = initialState, action: ActionsTypes): InitialStateType => {
@@ -25,18 +25,18 @@ const formReducer = (state = initialState, action: ActionsTypes): InitialStateTy
       return {
         ...state,
         sendForm: {
-					...state.sendForm,
-          initilizedSendForm: action.initialized
+          ...state.sendForm,
+          initilizedSendForm: action.initialized,
         },
       }
     }
 
-		case "SN/productList/SEND_FORM_TEXT": {
+    case "SN/productList/SEND_FORM_TEXT": {
       return {
         ...state,
         sendForm: {
-					...state.sendForm,
-					responseText: action.text
+          ...state.sendForm,
+          responseText: action.text,
         },
       }
     }
@@ -45,12 +45,12 @@ const formReducer = (state = initialState, action: ActionsTypes): InitialStateTy
     default:
       return state
   }
-}
+};
 
 export const actions = {
   sendFormText: (text: string) => ({
     type: "SN/productList/SEND_FORM_TEXT",
-		text
+    text
   }) as const,
 
   initializedSendForm: (initialized: boolean) => ({
@@ -59,18 +59,18 @@ export const actions = {
   }) as const,
 }
 
-export const sendFormTC = (object:any): ThunkType => {
+export const sendFormTC = (object: any): ThunkType => {
   return async (dispatch) => {
     dispatch(actions.initializedSendForm(false))
     try {
-			const response = await getEndpointApi({});
-			dispatch(actions.sendFormText(response.data.text));
+      const response = await getEndpointApi({});
+      dispatch(actions.sendFormText(response.data.text));
       dispatch(actions.initializedSendForm(true))
     } catch (e) {
       throw e
     }
   }
-}
+};
 
 
 export default formReducer;

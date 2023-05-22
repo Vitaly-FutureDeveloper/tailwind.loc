@@ -1,5 +1,4 @@
 import React from "react"
-import styles from "./ProductList.module.scss"
 import {useDispatch, useSelector} from "react-redux"
 import LoadingSpinner from "../spinners/LoadingSpinner/LoadingSpinner"
 import {getFormResponseInitialized, getFormResponseText} from "../../redux/form-reducer/form-selectors";
@@ -14,7 +13,6 @@ export const ProductList: React.FC = () => {
   const sendForm = () => {
     dispatch(sendFormTC({}));
   };
-
 
 
   return (

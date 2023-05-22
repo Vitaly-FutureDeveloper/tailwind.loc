@@ -4,7 +4,7 @@ import thunkMiddleware, {ThunkAction} from "redux-thunk"
 import formReducer from "./form-reducer/form-reducer"
 
 const reducers = combineReducers({
-	formPage: formReducer,
+  formPage: formReducer,
 })
 
 type RootReducerType = typeof reducers

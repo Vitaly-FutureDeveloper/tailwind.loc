@@ -1,0 +1,20 @@
+.navMenu {
+    @apply transition-all visible relative lg:top-4 mr-2 pr-2 lg:pr-0 lg:pl-16;
+}
+
+.navList {
+    @apply flex flex-col lg:flex-row mt-20 lg:mt-0 mx-4;
+}
+
+.Nav__item {
+    @apply text-base my-6 lg:my-1 lg:mb-0 lg:text-xs pl-2 lg:pb-5 lg:pb-3 lg:mr-6 lg:last:mr-0 flex items-center;
+}
+
+.Nav__icon {
+    @apply lg:hidden mr-5;
+}
+
+.activeNavLink {
+    @apply lg:underline underline-offset-[14px] decoration-4 decoration-lime-400;
+}
+

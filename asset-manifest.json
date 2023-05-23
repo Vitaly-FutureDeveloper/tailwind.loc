@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tailwind.loc/static/css/main.16098768.css",
-    "main.js": "/tailwind.loc/static/js/main.539aaae6.js",
+    "main.css": "/tailwind.loc/static/css/main.5de85dbd.css",
+    "main.js": "/tailwind.loc/static/js/main.1210dbfa.js",
     "static/css/598.013eb3c1.chunk.css": "/tailwind.loc/static/css/598.013eb3c1.chunk.css",
     "static/js/598.dc3d828d.chunk.js": "/tailwind.loc/static/js/598.dc3d828d.chunk.js",
     "static/js/787.c3383fb5.chunk.js": "/tailwind.loc/static/js/787.c3383fb5.chunk.js",
@@ -13,15 +13,15 @@
     "static/media/icon-euroCar.svg": "/tailwind.loc/static/media/icon-euroCar.7400b76d7d3d30f5c989cc5735469b13.svg",
     "static/media/flag.svg": "/tailwind.loc/static/media/flag.845c3307696252227c89e1fb1ec32b94.svg",
     "index.html": "/tailwind.loc/index.html",
-    "main.16098768.css.map": "/tailwind.loc/static/css/main.16098768.css.map",
-    "main.539aaae6.js.map": "/tailwind.loc/static/js/main.539aaae6.js.map",
+    "main.5de85dbd.css.map": "/tailwind.loc/static/css/main.5de85dbd.css.map",
+    "main.1210dbfa.js.map": "/tailwind.loc/static/js/main.1210dbfa.js.map",
     "598.013eb3c1.chunk.css.map": "/tailwind.loc/static/css/598.013eb3c1.chunk.css.map",
     "598.dc3d828d.chunk.js.map": "/tailwind.loc/static/js/598.dc3d828d.chunk.js.map",
     "787.c3383fb5.chunk.js.map": "/tailwind.loc/static/js/787.c3383fb5.chunk.js.map",
     "739.250be95d.chunk.js.map": "/tailwind.loc/static/js/739.250be95d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16098768.css",
-    "static/js/main.539aaae6.js"
+    "static/css/main.5de85dbd.css",
+    "static/js/main.1210dbfa.js"
   ]
 }

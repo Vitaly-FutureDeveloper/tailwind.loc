@@ -1,17 +1,17 @@
-.activeSlideWrap{
+.activeSlideWrap {
     @apply relative w-[183px] h-[273px] z-20 bg-white
 }
 
-.inactiveSlideWrap{
+.inactiveSlideWrap {
     @apply relative w-[170px] sm:w-[183px] h-[233px]  bg-white
 }
 
 
-.activeSlide{
+.activeSlide {
     @apply w-[183px] h-[273px] py-3 bg-white lg:bg-gray-100
 }
 
-.inactiveSlide{
+.inactiveSlide {
     @apply w-[170px] sm:w-[183px] h-[233px] opacity-30 sm:opacity-100  bg-white
 }
 

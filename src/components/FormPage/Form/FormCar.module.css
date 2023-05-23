@@ -15,6 +15,7 @@
 .labelDataOther {
     @apply block relative;
 }
+
 @layer components {
     /*.labelDataOther:focus .spanDataOther {*/
     /*    @apply top-2;*/

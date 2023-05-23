@@ -1,7 +1,7 @@
 import {ResponseInterface} from "../types/ReduxTypes";
 import {FormType} from "../types/FormType";
 
-const getResponse: (datas:FormType) => ResponseInterface = (datas:FormType) => ({
+const getResponse: (datas: FormType) => ResponseInterface = (datas: FormType) => ({
   status: 200,
   data: {
     text: "Успешно обработан запрос. Все данные в консоле",

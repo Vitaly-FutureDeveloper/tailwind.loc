@@ -3,7 +3,7 @@
 }
 
 .navList {
-    @apply  transition-opacity flex flex-col lg:flex-row mt-20 lg:mt-0 mx-4;
+    @apply transition-opacity flex flex-col lg:flex-row mt-20 lg:mt-0 mx-4;
 }
 
 .Nav__item {

@@ -26,7 +26,7 @@ function App() {
                   <Route path='*' element={<FormPage/>}/>
                 </Routes>
               </main>
-              <Footer />
+              <Footer/>
             </div>
           </div>
 

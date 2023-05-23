@@ -22,9 +22,11 @@ input[type='radio'].visually-hidden {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -38,7 +40,7 @@ code {
 }
 
 @media only screen and (max-width: 1023px) {
-    .rotate-y{
+    .rotate-y {
         transform: rotateY(-180deg);
     }
 }

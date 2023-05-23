@@ -1,6 +1,8 @@
 import React from "react"
 import FormCar from "./Form/FormCar";
 
+import {PromoSlider} from "./PromoSlider/PromoSlider";
+
 import styles from "./FormPage.module.css"
 
 import PhotoCar from "../../assets/img/city21.png";
@@ -8,7 +10,7 @@ import PhotoIllustration2 from "../../assets/img/Illustration-2.png";
 import PhotoIllustration3 from "../../assets/img/Illustration-3.png";
 import iconEuroCar from "../../assets/icons/icon-euroCar.svg";
 import flag from "../../assets/icons/flag.svg";
-import {PromoSlider} from "./PromoSlider/PromoSlider";
+
 
 export const FormPage: React.FC = () => {
 
@@ -152,7 +154,8 @@ export const FormPage: React.FC = () => {
         <div className="mb-8 lg:w-[55%]">
           <h2 className="font-bold text-2xl mb-4"><span
             className="underline underline-offset-[3px] decoration-4 decoration-lime-400">COMPANY</span> NAME</h2>
-          <p className="mb-8">Каждый автовладелец хотя бы раз сталкивался с необходимостью продать машину. Конечно же, вы
+          <p className="mb-8">Каждый автовладелец хотя бы раз сталкивался с необходимостью продать машину. Конечно же,
+            вы
             хотите селать это быстрее и с максимальной выгодой. Наши специалисты возьмут на себя все проблемы! Нам можно
             полностью доверять.
             Мы не являемся кредитной организацией или ломбардом. Мы покупаем ваши машины, в любом виде и состоянии. Да,

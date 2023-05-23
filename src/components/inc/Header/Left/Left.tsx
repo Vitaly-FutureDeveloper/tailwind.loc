@@ -8,6 +8,7 @@ export const Left: React.FC = () => {
       <div className="sm:hidden">
         <p className="text-sm">Покупка авто по одному звонку!</p>
       </div>
+
       <div className="flex items-center">
         <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -16,6 +17,7 @@ export const Left: React.FC = () => {
         </svg>
         <p className="ml-4"><a href="tel:+37243675476">+372 43675 476</a></p>
       </div>
+
       <div className="items-center hidden sm:flex">
         <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_17_424)">
@@ -40,6 +42,7 @@ export const Left: React.FC = () => {
         </svg>
         <p className="ml-4"><a href="mailto:info@example.ee">info@example.ee</a></p>
       </div>
+
     </div>
   );
 };

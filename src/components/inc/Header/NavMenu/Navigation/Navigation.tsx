@@ -1,5 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
+
 import styles from "./Navigation.module.css";
 
 
@@ -126,7 +127,7 @@ export const Navigation: React.FC<PropsType> = ({toggleMenu, onToggleMenu}) => {
           <NavLink to="/contacts" className={setActiveLink}>КОНТАКТЫ</NavLink>
         </li>
         <li className={styles.Nav__item}>
-          <svg className="mr-2 lg:mr-0 w-[36px] lg:w-[18px]"  viewBox="0 0 18 13" fill="none"
+          <svg className="mr-2 lg:mr-0 w-[36px] lg:w-[18px]" viewBox="0 0 18 13" fill="none"
                xmlns="http://www.w3.org/2000/svg">
             <path d="M18 0.441833H0V4.49075H18V0.441833Z" fill="white"/>
             <path d="M18 8.51031H0V12.4418H18V8.51031Z" fill="#D52B1E"/>

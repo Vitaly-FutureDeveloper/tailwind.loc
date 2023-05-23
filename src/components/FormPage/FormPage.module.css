@@ -1,9 +1,11 @@
-.aboutItem{
+.aboutItem {
     @apply flex flex-col lg:flex-row justify-end lg:justify-start items-center mr-5 lg:mr-0 lg:mb-8;
 }
-.aboutItemIcon{
-    @apply  lg:mr-4;
+
+.aboutItemIcon {
+    @apply lg:mr-4;
 }
-.aboutItemText{
+
+.aboutItemText {
     @apply text-center lg:text-left;
 }

@@ -1,0 +1,37 @@
+@tailwind components;
+
+.labelDataCar {
+    @apply block relative;
+}
+
+.spanDataCar {
+    @apply absolute top-[-3px] left-2 block bg-white text-[10px] leading-none px-1 py-0 my-0;
+}
+
+.inputFieldDataCar {
+    @apply rounded h-5 w-full text-xs text-gray-400 border-gray-400;
+}
+
+.labelDataOther {
+    @apply block relative;
+}
+@layer components {
+    /*.labelDataOther:focus .spanDataOther {*/
+    /*    @apply top-2;*/
+    /*}*/
+}
+
+.spanDataOther {
+    @apply absolute top-[-3px] left-2 block bg-white text-[10px] leading-none px-1 py-0;
+}
+
+
+.inputFieldDataOther {
+    @apply rounded w-full text-xs text-gray-400 border-gray-400;
+}
+
+
+.errorMessageData {
+    @apply absolute bottom-[-10px] text-red-500 text-[10px];
+}
+

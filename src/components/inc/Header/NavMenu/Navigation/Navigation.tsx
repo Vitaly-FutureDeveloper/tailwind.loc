@@ -32,7 +32,7 @@ export const Navigation: React.FC<PropsType> = ({toggleMenu, onToggleMenu}) => {
       </div>
 
 
-      <ul className={toggleMenu ? styles.navList : `${styles.navList} h-0`}>
+      <ul className={toggleMenu ? `${styles.navList} opacity-100` : `${styles.navList} opacity-0 lg:opacity-100`}>
         <li className={styles.Nav__item}>
           <svg className={styles.Nav__icon} width="24" height="24" viewBox="0 0 24 24" fill="none"
                xmlns="http://www.w3.org/2000/svg">

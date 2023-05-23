@@ -3,10 +3,11 @@ import {HashRouter, Route, Routes} from "react-router-dom";
 import {Provider} from 'react-redux';
 
 import './App.css';
+
 import store from './redux/store';
 import LoadingSpinner from './components/spinners/LoadingSpinner/LoadingSpinner';
 import {Header} from "./components/inc/Header/Header";
-// import Spinner from "./components/spinners/Spinner/Spinner";
+import {Footer} from "./components/inc/Footer/Footer";
 
 const FormPage = React.lazy(() => import("./components/FormPage/FormPage"));
 
@@ -16,7 +17,7 @@ function App() {
       <Provider store={store}>
         <React.Suspense fallback={<LoadingSpinner/>}>
 
-          <div className="">
+          <div className="font-main text-slate-900">
             <div className="">
               <Header/>
               <main className="">
@@ -25,6 +26,7 @@ function App() {
                   <Route path='/' element={<FormPage/>}/>
                 </Routes>
               </main>
+              <Footer />
             </div>
           </div>
 

@@ -21,7 +21,7 @@ export const TopBlock: React.FC = () => {
         <img src={iconEuroCar} alt=""/>
       </div>
 
-      <div className="ml-[41%] mr-4 flex">
+      <div className="ml-[38%] mr-4 flex">
         <div className="m-2">
           <IconFacebook/>
         </div>

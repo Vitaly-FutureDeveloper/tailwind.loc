@@ -1,3 +1,5 @@
+import {FormType} from "./FormType";
+
 export interface ResponseInterface {
   status: number,
   data: DataResponseType,
@@ -5,6 +7,7 @@ export interface ResponseInterface {
 
 type DataResponseType = {
   text: string,
+  datas: FormType,
 };
 
 

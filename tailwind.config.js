@@ -9,10 +9,13 @@ module.exports = {
         large: '270px',
       },
       fontFamily: {
-        main: ['Roboto', 'Arimo'],
+        main: ['Roboto', 'sans-serif'],
+        arimo: ['Arimo', 'sans-serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 

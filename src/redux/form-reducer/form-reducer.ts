@@ -5,7 +5,7 @@ import {getEndpointApi} from "../../api/fakeApi";
 
 const initialState = {
   sendForm: {
-    initilizedSendForm: true,
+    initilizedSendForm: false,
     responseText: '',
   },
 } as FormPageInterface;
@@ -60,12 +60,14 @@ export const actions = {
 }
 
 export const sendFormTC = (object: any): ThunkType => {
-  return async (dispatch) => {
-    dispatch(actions.initializedSendForm(false))
+  return async (dispatch, getState) => {
+    dispatch(actions.initializedSendForm(true))
+    dispatch(actions.sendFormText(''));
     try {
-      const response = await getEndpointApi({});
+      const response = await getEndpointApi(object);
       dispatch(actions.sendFormText(response.data.text));
-      dispatch(actions.initializedSendForm(true))
+      console.log(response.data.datas)
+      dispatch(actions.initializedSendForm(false))
     } catch (e) {
       throw e
     }

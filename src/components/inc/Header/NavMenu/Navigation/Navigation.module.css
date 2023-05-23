@@ -3,11 +3,11 @@
 }
 
 .navList {
-    @apply flex flex-col lg:flex-row mt-20 lg:mt-0 mx-4;
+    @apply  transition-opacity flex flex-col lg:flex-row mt-20 lg:mt-0 mx-4;
 }
 
 .Nav__item {
-    @apply text-base my-6 lg:my-1 lg:mb-0 lg:text-xs pl-2 lg:pb-5 lg:pb-3 lg:mr-6 lg:last:mr-0 flex items-center;
+    @apply text-base my-6 lg:my-1 lg:mb-0 lg:text-xs pl-2 lg:pb-5 lg:pb-3 lg:mr-5 lg:last:mr-0 flex items-center;
 }
 
 .Nav__icon {

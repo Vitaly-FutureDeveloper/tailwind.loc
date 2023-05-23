@@ -16,11 +16,6 @@
     @apply block relative;
 }
 
-@layer components {
-    /*.labelDataOther:focus .spanDataOther {*/
-    /*    @apply top-2;*/
-    /*}*/
-}
 
 .spanDataOther {
     @apply absolute top-[-3px] left-2 block bg-white text-[10px] leading-none px-1 py-0;

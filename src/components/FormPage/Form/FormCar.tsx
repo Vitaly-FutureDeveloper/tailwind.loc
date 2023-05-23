@@ -84,7 +84,7 @@ export const FormCar: React.FC = () => {
 
 
   return (
-    <section className="mt-7 md:mt-12 mx-auto lg:ml-28 lg:w-[490px]">
+    <section className="mt-7 md:mt-12 mx-auto lg:ml-28 lg:w-[47.5%]">
       <Formik
         initialValues={getInitialValues()}
         validationSchema={SigninSchema}
@@ -184,7 +184,7 @@ export const FormCar: React.FC = () => {
 
             {/* Вторая часть формы */}
             <div
-              className="grid gap-y-7 md:gap-y-5 gap-x-5 md:gap-x-7 lg:gap-x-2 px-5 lg:px-0 lg:w-[385px] grid-cols-2 mb-3">
+              className="grid gap-y-7 md:gap-y-5 gap-x-5 md:gap-x-7 lg:gap-x-2 px-5 lg:px-0 lg:w-[78.5%] grid-cols-2 mb-3">
 
               <label className={`${styles.labelDataOther} lg:w-40`}>
                 <span className={styles.spanDataOther}>Имя</span>

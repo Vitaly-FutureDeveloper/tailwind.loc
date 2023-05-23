@@ -23,7 +23,7 @@ function App() {
               <main className="">
                 <h1 className="visually-hidden">Тестовое задание для компании It Solutions</h1>
                 <Routes>
-                  <Route path='/' element={<FormPage/>}/>
+                  <Route path='*' element={<FormPage/>}/>
                 </Routes>
               </main>
               <Footer />

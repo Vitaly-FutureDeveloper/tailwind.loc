@@ -21,7 +21,7 @@ export const FormPage: React.FC = () => {
 
         {/* Боковая фотография - декор */}
         <div className="lg:absolute right-0 mt-6 lg:mt-24 flex-1">
-          <img src={PhotoCar} alt=""/>
+          <img src={PhotoCar} className="w-full" alt=""/>
         </div>
       </div>
 

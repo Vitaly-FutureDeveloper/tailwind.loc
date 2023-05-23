@@ -20,7 +20,7 @@ function App() {
           <div className="font-main text-slate-900">
             <div className="">
               <Header/>
-              <main className="">
+              <main className="relative z-0 mt-[100px]">
                 <h1 className="visually-hidden">Тестовое задание для компании It Solutions</h1>
                 <Routes>
                   <Route path='*' element={<FormPage/>}/>

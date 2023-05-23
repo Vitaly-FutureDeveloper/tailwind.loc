@@ -1,5 +1,5 @@
 .navMenu {
-    @apply transition-all visible relative lg:top-4 mr-2 pr-2 lg:pr-0 lg:pl-16;
+    @apply transition-all visible relative lg:top-4 mr-2 pr-2 lg:pr-0 lg:pl-16 z-50;
 }
 
 .navList {

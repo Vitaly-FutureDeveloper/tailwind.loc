@@ -4,7 +4,7 @@ export const Left: React.FC = () => {
 
 
   return (
-    <div className='absolute w-full h-[70px] bg-lime-400 rounded-bl-lg pl-3 sm:pl-20 pt-3 font-bold'>
+    <div className='absolute left-0 w-full h-[70px] bg-lime-400 rounded-bl-lg pl-3 sm:pl-20 pt-3 font-bold'>
       <div className="sm:hidden">
         <p className="text-sm">Покупка авто по одному звонку!</p>
       </div>

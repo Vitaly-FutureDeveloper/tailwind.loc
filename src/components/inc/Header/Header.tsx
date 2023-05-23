@@ -6,7 +6,7 @@ export const Header: React.FC = () => {
 
 
   return (
-    <header className="text-white">
+    <header className="absolute top-0 w-full text-white flex z-50">
       <Left/>
       <NavMenu/>
     </header>

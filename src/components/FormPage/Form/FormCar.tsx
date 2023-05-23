@@ -237,11 +237,13 @@ export const FormCar: React.FC = () => {
               </button>
             </div>
 
-            <div className="absolute ml-[120px] w-full">
+            <div className="absolute ml-[120px] w-[100px]">
               {
                 formResponseInitialized
                 &&
-                <LoadingSpinner/>
+                <div className="relative top-0 left-0">
+                  <LoadingSpinner />
+                </div>
               }
               {
                 (formResponseText !== '')

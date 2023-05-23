@@ -11,6 +11,6 @@ const getResponse: (datas: FormType) => ResponseInterface = (datas: FormType) =>
 
 export function getEndpointApi(object: any): Promise<ResponseInterface> {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(getResponse(object)), 1550)
+    setTimeout(() => resolve(getResponse(object)), 1500)
   })
 }

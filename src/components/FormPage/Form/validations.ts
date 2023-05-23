@@ -7,12 +7,10 @@ const simpleTextRequired = () => Yup.string()
   .max(20, 'Максимум 20 символов')
   .required('Обязательное поле');
 
-const simpleBooleanRequired = () => Yup.boolean()
-  .required('Согласие является обязательным...');
+const simpleBooleanRequired = () => Yup.boolean().oneOf([true], 'Согласие является обязательным...');
 
 
 export const SigninSchema = Yup.object({
-  image: Yup.object(),
   brandMachine: simpleText(),
   modelMachine: simpleText(),
   motorMachine: simpleText(),

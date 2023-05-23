@@ -152,7 +152,7 @@ export const FormCar: React.FC = () => {
               </label>
 
               <label className={styles.labelDataCar}>
-                <span className={styles.spanDataCar}>Желаемая цена</span>
+                <span className={`${styles.spanDataOther} ${styles.required}`}>Желаемая цена</span>
                 <Field className={styles.inputFieldDataCar} type="text" name="desiredPriceMachine"/>
                 <ErrorMessage name="desiredPriceMachine" component="div" className={styles.errorMessageData}/>
               </label>
@@ -199,7 +199,7 @@ export const FormCar: React.FC = () => {
               </label>
 
               <label className={`${styles.labelDataOther} lg:w-40`}>
-                <span className={styles.spanDataOther}>Телефон</span>
+                <span className={`${styles.spanDataOther} ${styles.required}`}>Телефон</span>
                 <Field className={`${styles.inputFieldDataOther} h-5`} type="tel" name="tel"/>
                 <ErrorMessage name="tel" component="div" className={styles.errorMessageData}/>
               </label>

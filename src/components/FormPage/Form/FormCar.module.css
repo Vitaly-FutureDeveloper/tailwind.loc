@@ -18,7 +18,11 @@
 
 
 .spanDataOther {
-    @apply absolute top-[-3px] left-2 block bg-white text-[10px] leading-none px-1 py-0;
+    @apply absolute top-[-3px] left-2 block bg-white text-[10px] leading-none pl-1 pr-3 py-0;
+}
+
+.required{
+    @apply after:font-bold after:content-['+'] after:w-2 after:h-2 after:bg-lime-50 after:text-lime-500 after:text-[10px] after:absolute after:-top-1 after:right-1 pr-4;
 }
 
 

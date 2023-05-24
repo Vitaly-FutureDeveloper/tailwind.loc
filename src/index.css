@@ -34,14 +34,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @media only screen and (max-width: 1023px) {
     .rotate-y {
         transform: rotateY(-180deg);
+    }
+}
+
+@layer components {
+    button, a {
+        @apply transition hover:opacity-60 shadow-sm cursor-pointer;
     }
 }
 

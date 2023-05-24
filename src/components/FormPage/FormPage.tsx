@@ -22,15 +22,15 @@ export const FormPage: React.FC = () => {
         <FormCar/>
 
         {/* Боковая фотография - декор */}
-        <div className="lg:absolute right-0 mt-6 lg:mt-24 flex-1">
+        <div className="flex items-center lg:absolute lg:w-[43.35%] lg:max-h-[430px] right-0 mt-6 lg:mt-24 overflow-hidden flex-1">
           <img src={PhotoCar} className="w-full" alt=""/>
         </div>
       </div>
 
       {/* Блок Слайдера */}
-      <div className="relative mx-10 mb-20 flex">
+      <div className="relative mx-[5%] mb-20 flex">
         {/* Боковая фотография - декор */}
-        <div className="hidden lg:block mt-6 w-[580px] visible lg:mt-20">
+        <div className="lg:flex items-center justify-end overflow-hidden hidden lg:block mt-6 w-[580px] max-h-[540px]  visible lg:mt-20">
           <img src={PhotoIllustration2} alt=""/>
         </div>
 
@@ -59,7 +59,7 @@ export const FormPage: React.FC = () => {
       {/* Секция О нас */}
       <section className="relative flex flex-col lg:flex-row items-center mb-52">
 
-        <div className="mx-6 sm:mx-10 md:mx-20 z-10 lg:w-[45%]">
+        <div className="mx-6 sm:mx-10 md:mx-[7%] z-10 lg:w-[45%]">
           <h2 className="font-bold text-3xl underline underline-offset-[3px] decoration-4 decoration-lime-400 mb-4">О
             нас</h2>
           <strong className="block font-arimo mb-4">Мы действуем на рынке автомобилей уже много лет и знаем как оформить
@@ -148,7 +148,7 @@ export const FormPage: React.FC = () => {
       </section>
 
       {/* Секция О Имени компании */}
-      <section className="flex flex-col lg:flex-row mx-6 lg:mx-20">
+      <section className="flex flex-col lg:flex-row mx-[4%] lg:mx-[7%]">
 
         {/* LEFT */}
         <div className="mb-8 lg:w-[55%]">

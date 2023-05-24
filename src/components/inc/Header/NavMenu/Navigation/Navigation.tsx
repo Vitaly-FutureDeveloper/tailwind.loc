@@ -127,13 +127,15 @@ export const Navigation: React.FC<PropsType> = ({toggleMenu, onToggleMenu}) => {
           <NavLink to="/contacts" className={setActiveLink}>КОНТАКТЫ</NavLink>
         </li>
         <li className={`${styles.Nav__item} !mr-0`}>
-          <svg className="mr-2 lg:mr-0 w-[36px] lg:w-[18px]" viewBox="0 0 18 13" fill="none"
-               xmlns="http://www.w3.org/2000/svg">
-            <path d="M18 0.441833H0V4.49075H18V0.441833Z" fill="white"/>
-            <path d="M18 8.51031H0V12.4418H18V8.51031Z" fill="#D52B1E"/>
-            <path d="M18 4.49072H0V8.51026H18V4.49072Z" fill="#0039A6"/>
-          </svg>
-          <button className="lg:hidden text-xl font-bold">Русский</button>
+          <button className="text-xl font-bold">
+            <svg className="mr-2 lg:mr-0 w-[36px] lg:w-[18px]" viewBox="0 0 18 13" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 0.441833H0V4.49075H18V0.441833Z" fill="white"/>
+              <path d="M18 8.51031H0V12.4418H18V8.51031Z" fill="#D52B1E"/>
+              <path d="M18 4.49072H0V8.51026H18V4.49072Z" fill="#0039A6"/>
+            </svg>
+            <span className="lg:hidden ">Русский</span>
+          </button>
         </li>
 
         <li className={`${styles.Nav__item} lg:!hidden`}>

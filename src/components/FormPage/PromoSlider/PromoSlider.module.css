@@ -1,18 +1,18 @@
 .activeSlideWrap {
-    @apply relative w-[183px] h-[273px] z-20 bg-white
+    @apply relative w-[183px] h-[273px] z-20 bg-white;
 }
 
 .inactiveSlideWrap {
-    @apply relative w-[170px] sm:w-[183px] h-[233px] bg-white
+    @apply relative w-[170px] sm:w-[183px] h-[233px] bg-white cursor-pointer;
 }
 
 
 .activeSlide {
-    @apply w-[183px] h-[273px] py-3 bg-white lg:bg-gray-100 opacity-100
+    @apply transition w-[183px] h-[273px] py-3 bg-white lg:bg-gray-100 opacity-100;
 }
 
 .inactiveSlide {
-    @apply w-[170px] sm:w-[183px] h-[233px] opacity-30 sm:opacity-100  bg-white
+    @apply transition w-[170px] sm:w-[183px] h-[233px] opacity-30 sm:opacity-100 bg-white hover:bg-gray-200;
 }
 
 

@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/tailwind.loc/static/css/main.5de85dbd.css",
-    "main.js": "/tailwind.loc/static/js/main.1210dbfa.js",
-    "static/css/598.013eb3c1.chunk.css": "/tailwind.loc/static/css/598.013eb3c1.chunk.css",
-    "static/js/598.dc3d828d.chunk.js": "/tailwind.loc/static/js/598.dc3d828d.chunk.js",
+    "main.css": "/tailwind.loc/static/css/main.a0c5df31.css",
+    "main.js": "/tailwind.loc/static/js/main.65b955bd.js",
+    "static/css/598.80ef9442.chunk.css": "/tailwind.loc/static/css/598.80ef9442.chunk.css",
+    "static/js/598.4c8792cf.chunk.js": "/tailwind.loc/static/js/598.4c8792cf.chunk.js",
     "static/js/787.c3383fb5.chunk.js": "/tailwind.loc/static/js/787.c3383fb5.chunk.js",
     "static/js/739.250be95d.chunk.js": "/tailwind.loc/static/js/739.250be95d.chunk.js",
     "static/media/Illustration-3.png": "/tailwind.loc/static/media/Illustration-3.64de892ebc5c4f34be55.png",
@@ -13,15 +13,15 @@
     "static/media/icon-euroCar.svg": "/tailwind.loc/static/media/icon-euroCar.7400b76d7d3d30f5c989cc5735469b13.svg",
     "static/media/flag.svg": "/tailwind.loc/static/media/flag.845c3307696252227c89e1fb1ec32b94.svg",
     "index.html": "/tailwind.loc/index.html",
-    "main.5de85dbd.css.map": "/tailwind.loc/static/css/main.5de85dbd.css.map",
-    "main.1210dbfa.js.map": "/tailwind.loc/static/js/main.1210dbfa.js.map",
-    "598.013eb3c1.chunk.css.map": "/tailwind.loc/static/css/598.013eb3c1.chunk.css.map",
-    "598.dc3d828d.chunk.js.map": "/tailwind.loc/static/js/598.dc3d828d.chunk.js.map",
+    "main.a0c5df31.css.map": "/tailwind.loc/static/css/main.a0c5df31.css.map",
+    "main.65b955bd.js.map": "/tailwind.loc/static/js/main.65b955bd.js.map",
+    "598.80ef9442.chunk.css.map": "/tailwind.loc/static/css/598.80ef9442.chunk.css.map",
+    "598.4c8792cf.chunk.js.map": "/tailwind.loc/static/js/598.4c8792cf.chunk.js.map",
     "787.c3383fb5.chunk.js.map": "/tailwind.loc/static/js/787.c3383fb5.chunk.js.map",
     "739.250be95d.chunk.js.map": "/tailwind.loc/static/js/739.250be95d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5de85dbd.css",
-    "static/js/main.1210dbfa.js"
+    "static/css/main.a0c5df31.css",
+    "static/js/main.65b955bd.js"
   ]
 }
